@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+}
+.Menu{
+    float: left;
+}
+.Submenu{
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    background-color: beige;
+    width: 15%;
+    color: black;
+}
+.Menu:hover .Submenu{
+    display: block;
+}
+.topic{
+    padding: 10px 16px;
+    background-color: black;
+    color: azure;
+}
+.list:hover{
+    background: wheat;
+}
