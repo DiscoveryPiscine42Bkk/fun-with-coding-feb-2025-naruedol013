@@ -1,0 +1,52 @@
+body {
+    height: 100%;
+    margin: 0px;
+}
+
+.parallax {
+    height: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.parallax1 {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://i0.wp.com/cuchara.photography/wp-content/uploads/2022/09/20220811202344js_20220811_05826-edit-1.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    align-items: end;
+}
+
+.parallax2 {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://t3.ftcdn.net/jpg/01/25/89/88/360_F_125898822_j4n2We3BIvgplgdv6j36FjI8FNI9PnIy.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.warning {
+    height: 60%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.warning h1 {
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    margin: 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+}
